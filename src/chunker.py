@@ -2,7 +2,7 @@ from pdf_loader import extract_pdfs
 
 
 CHUNK_SIZE = 1200
-CHUNK_OVERLAP = 150
+CHUNK_OVERLAP = 200
 
 
 def create_chunks(documents):

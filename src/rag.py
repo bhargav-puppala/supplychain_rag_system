@@ -17,7 +17,7 @@ client = genai.Client(api_key=api_key)
 MODEL_NAME = "gemini-3.5-flash"
 
 
-def generate_answer(question, top_k=4):
+def generate_answer(question, top_k=6):
 
     results = search_documents(question, top_k)
 

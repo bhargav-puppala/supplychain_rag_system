@@ -212,7 +212,7 @@ if ask_button:
 
                 answer, sources = generate_answer(
                     question,
-                    top_k=4
+                    top_k=6
                 )
 
 
